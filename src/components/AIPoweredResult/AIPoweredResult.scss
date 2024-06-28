@@ -1,0 +1,84 @@
+.figma {
+    width: 100%;
+    height: 100%;
+    padding: 59px 17px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+  
+    &__container {
+      height: 669px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 80px;
+    }
+  
+    &__video {
+      width: 170px;
+      height: 375px;
+    }
+  
+    &__text-container {
+      align-self: stretch;
+      height: 214px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 16px;
+    }
+  
+    &__title {
+      align-self: stretch;
+      text-align: center;
+      color: black;
+      font-size: 22px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      line-height: 28px;
+      word-wrap: break-word;
+      
+      color: black;
+font-size: 22px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+line-height: 28px;
+word-wrap: break-word;
+
+    }
+  
+    &__description {
+      align-self: stretch;
+      height: 170px;
+      color: black;
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      line-height: 22.4px;
+      word-wrap: break-word;
+    }
+  
+    &__pagination {
+      width: 44px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    &__dot {
+      width: 8px;
+      height: 8px;
+      background: #9BA5B7;
+      border-radius: 9999px;
+  
+      &--active {
+        background: #545F71;
+      }
+    }
+  }
+  
