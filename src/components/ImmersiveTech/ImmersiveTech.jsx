@@ -5,7 +5,7 @@ import video from '../../assets/mapsearch.mp4'
 const ImmersiveTech = () => {
   return (
     <div className="container">
-                          <video autoPlay loop muted className="figma__video">
+                      <video autoPlay loop muted className="figma__video">
                         <source src={video} type="video/mp4" />
                     </video>
       <div className="container__text-box">

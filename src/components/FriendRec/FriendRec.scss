@@ -6,8 +6,8 @@
   
     &__text-box {
       height: 175px;
-      left: 18px;
-      top: 465px;
+      padding-top: 5rem;
+     padding-left: 5rem;
       position: absolute;
       display: flex;
       flex-direction: column;
@@ -39,8 +39,8 @@
       padding-right: 2rem;
     }
   &__image {
-    width: 70%;
-    height: 50%;
+    width:390px;
+    height:246px;
     padding-left: 5rem;
   }
 
