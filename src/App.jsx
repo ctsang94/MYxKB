@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Modal from './components/modal/modal'
+import Modal from './components/Modal/Modal.jsx'
 
 function App() {
 

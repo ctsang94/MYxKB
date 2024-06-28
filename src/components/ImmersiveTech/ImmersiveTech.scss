@@ -37,35 +37,6 @@
       line-height: 22.4px;
       word-wrap: break-word;
     }
-  
-    &__pagination {
-      width: 44px;
-      left: 172px;
-      top: 752px;
-      position: absolute;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-  
-    &__dot {
-      width: 8px;
-      height: 8px;
-      background: #9BA5B7;
-      border-radius: 9999px;
-  
-      &--active {
-        background: #545F71;
-      }
-    }
-  
-    &__image {
-      width: 330px;
-      height: 246.52px;
-      left: 16px;
-      top: 136px;
-      position: absolute;
-      border-radius: 8px;
-    }
+
   }
   

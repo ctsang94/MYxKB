@@ -9,15 +9,10 @@ const ImmersiveTech = () => {
                         <source src={video} type="video/mp4" />
                     </video>
       <div className="container__text-box">
-        <div className="container__title">New Search Go-To</div>
+        <div className="container__title">Immersive Technology</div>
         <div className="container__description">With AI, we’ve introduced Immersive View for routes, letting you preview your journey before driving, walking, or cycling.
 
         </div>
-      </div>
-      <div className="container__pagination">
-        <div className="container__dot" />
-        <div className="container__dot container__dot--active" />
-        <div className="container__dot" />
       </div>
     </div>
   );

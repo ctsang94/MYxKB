@@ -18,10 +18,10 @@ const Modal = () => {
     };
     return (
         <div className="figma">
-            {currentPage === 1 && (<div> <AIPoweredResult /> </div>)}
-            {currentPage === 2 && (<div> <NewSearch /> </div>)}
-            {currentPage === 3 && (<div> <ImmersiveTech /> </div>)}
-            {currentPage === 4 && (<div> <FriendRec /> </div>)}
+            {currentPage === 1 && (<div className='figma__container'> <AIPoweredResult /> </div>)}
+            {currentPage === 2 && (<div className='figma__container'> <NewSearch /> </div>)}
+            {currentPage === 3 && (<div className='figma__container'> <ImmersiveTech /> </div>)}
+            {currentPage === 4 && (<div className='figma__container'> <FriendRec /> </div>)}
             
             <div className="figma__controls">
                 {currentPage < 4 && <Button onClick={handleNext}>Next</Button>}

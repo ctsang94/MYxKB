@@ -1,14 +1,17 @@
 .container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background: white;
+  width: 100%;
+  height: 100%;
+  padding: 59px 17px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
   
     &__text-box {
-      height: 175px;
-      left: 18px;
-      top: 465px;
-      position: absolute;
+      align-self: stretch;
+      height: 214px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -29,7 +32,7 @@
   
     &__description {
       align-self: stretch;
-      height: 131px;
+      height: 170px;
       color: black;
       font-size: 16px;
       font-family: 'Inter', sans-serif;
@@ -38,34 +41,12 @@
       word-wrap: break-word;
     }
   
-    &__pagination {
-      width: 44px;
-      left: 172px;
-      top: 752px;
-      position: absolute;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-  
-    &__dot {
-      width: 8px;
-      height: 8px;
-      background: #9BA5B7;
-      border-radius: 9999px;
-  
-      &--active {
-        background: #545F71;
-      }
-    }
   
     &__image {
-      width: 330px;
-      height: 246.52px;
-      left: 16px;
-      top: 136px;
-      position: absolute;
-      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      width: 40%;
+      height: 50%;
     }
   }
   
