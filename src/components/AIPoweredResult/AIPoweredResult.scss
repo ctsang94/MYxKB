@@ -63,22 +63,6 @@ word-wrap: break-word;
       word-wrap: break-word;
     }
   
-    &__pagination {
-      width: 44px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-  
-    &__dot {
-      width: 8px;
-      height: 8px;
-      background: #9BA5B7;
-      border-radius: 9999px;
-  
-      &--active {
-        background: #545F71;
-      }
-    }
+ 
   }
   
